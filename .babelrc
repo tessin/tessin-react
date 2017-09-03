@@ -1,0 +1,20 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [">1%", "IE 11"]
+        },
+        "modules": false
+      }
+    ],
+    "react",
+    "flow"
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+    ["transform-object-rest-spread", { "useBuiltIns": true }],
+    "syntax-dynamic-import"
+  ]
+}
